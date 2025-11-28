@@ -1,0 +1,140 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        border: 1px solid red;
+        background-color: blue;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px 15px 0px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        gap: 50px;
+    }
+    
+    .btn-inscrire {
+        border: 1px solid black;
+        border-radius: 10%;
+        background-color: yellow;
+    }
+    
+    section {
+        background-color: blue;
+        height: 100vh;
+    }
+    
+    section .contenu {
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        background-color: transparent;
+    }
+    
+    .contenu .left {
+        border: 1px solid black;
+        width: 40%;
+    }
+    
+    .contenu .left .Formation {
+        border: 1px solid yellow;
+        border-radius: 20%;
+        color: yellow;
+    }
+    
+    .contenu .left h1 {
+        font-weight: bold;
+    }
+    
+    .contenu .left h1 span {
+        color: yellow;
+    }
+    
+    .contenu .left .content {
+        border: 1px solid white;
+        width: 40%;
+        height: 70px;
+        gap: 5px;
+    }
+    
+    .contenu .left .content .immense {
+        border: 1px solid white;
+        border-radius: 20%;
+        color: white;
+        background-color: transparent;
+    }
+    
+    .contenu .left .content .Pratique {
+        border: 1px solid white;
+        border-radius: 20%;
+        color: white;
+        background-color: transparent;
+    }
+    
+    .contenu .left .content .competence {
+        border: 1px solid white;
+        border-radius: 20%;
+        color: white;
+        background-color: transparent;
+    }
+    
+    .contenu .left h2 {
+        color: yellow;
+        font-size: 15px;
+    }
+    
+    .contenu .left .para {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .contenu .left .content-para {
+        border: 1px solid transparent;
+        border-radius: 10%;
+        display: flex;
+        justify-content: space-between;
+        background: transparent;
+        height: 15px;
+    }
+    
+    .contenu .left .content-para .paragraphe {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contenu .left .content-para .paragraphe span {
+        color: yellow;
+        font-weight: bold;
+    }
+    
+    .contenu .left .content-para .paragraphe p {
+        font-size: 15px;
+        color: white;
+    }
+    
+    .contenu .left .content-para .info {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .contenu .left .content-para .info span {
+        color: yellow;
+        font-weight: bold;
+    }
