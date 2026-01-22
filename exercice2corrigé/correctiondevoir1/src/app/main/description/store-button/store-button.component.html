@@ -1,0 +1,13 @@
+<div class="flex flex-wrap gap-4">
+    <button
+    *ngFor="let store of storeButtons"
+    class="flex items-center space-x-3 bg-indigo-800 hover:bg-indigo-700 px-6 py-3 rounded-lg shadow-lg hover:shadow-xl">
+
+    <img [src]="store.icon" alt="">
+
+    <div class="text-left">
+        <p class="text-xs text-gray-300">{{store.topText}}</p>
+             <p class="text-sm font-semibold text-white">{{store.bottomText}}</p>
+    </div>
+</button>
+</div>
